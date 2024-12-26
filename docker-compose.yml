@@ -1,0 +1,6 @@
+services:
+  copy2git:
+    build:
+      context: .
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
